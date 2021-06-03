@@ -2,7 +2,9 @@
     <h1 class="display-4">m-shaped</h1>
     <p class="lead">Shaped like a manager.</p>
     <p class="lead">
+      <% if current_user.nil? %>
         <%= link_to "Log in", new_user_session_path, class: "btn btn-primary"%>
+      <% end %>
     </p>
 </div>
 
