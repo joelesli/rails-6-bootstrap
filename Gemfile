@@ -22,6 +22,24 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# https://github.com/heartcombo/devise
+gem 'devise'
+
+# https://github.com/ValiMail/devise-secure_password
+gem 'devise-secure_password', '~> 2.0'
+
+# https://github.com/tigrish/devise-i18n
+gem 'devise-i18n'
+
+# internationalization
+gem 'rails-i18n', '~> 6.0.0' # For 6.0.0 or higher
+
+# https://github.com/hisea/devise-bootstrap-views
+gem 'devise-bootstrap-views', '~> 1.0'
+
+#  pagination for requests
+gem 'will_paginate', '~> 3.1.0'
+
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
