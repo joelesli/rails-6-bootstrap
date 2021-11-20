@@ -1,6 +1,8 @@
 # Rails 6 with Bootstrap
 
-* Ruby version 2.6.5, rails 6.0.2 with Postgresql
+* Ruby version 2.7.2, rails 6.0.2 with Postgresql
+
+* Bootstrap guide https://dev.to/shahershamroukh/add-bootstrap-and-fontawesome-to-your-ruby-on-rails-6-application-3fm7
 
 * Bootstrap javascript and css imported in app/javascript/packs/application.js
 
